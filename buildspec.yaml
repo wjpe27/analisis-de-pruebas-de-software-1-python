@@ -3,6 +3,7 @@ phases:
   install:
     commands:
       - pip install --upgrade pip
+      - pip install pytest
       - pip install -r test_sample_requirements.txt
       - pip list  # Lista las dependencias instaladas para verificar que pytest esté instalado
   build:
