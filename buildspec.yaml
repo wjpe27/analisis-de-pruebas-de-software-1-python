@@ -2,7 +2,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - pip install -r requirements.txt
+      - pip install -r test_sample_requirements.txt
   build:
     commands:
       - pytest
